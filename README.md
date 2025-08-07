@@ -25,12 +25,25 @@ Whether you're learning backend development or planning to build a full-featured
 ---
 
 ## ⚙️ Tech Stack
+🖥️Backend & Frameworks
+Python 3
+Flask – Web framework used for routing, sessions, and rendering
+Flask SQLAlchemy – ORM to manage MySQL database models
+Flask Migrate – For database schema migrations
+Werkzeug – For password hashing and security utilities
 
-* **Python 3**
-* **Flask** (likely used via `create_app`)
-* **Werkzeug / Jinja2** *(depending on templates and routing needs)*
-* **HTML/CSS/JS** (for frontend, if included)
-* **Gunicorn / WSGI** (for deployment, optionally)
+🛢️ Database
+MySQL – Stores users, vehicles, bookings, charging stations, slots, feedback, and admin data
+
+🌐 Frontend
+HTML / Jinja2 – Flask’s templating engine for dynamic pages
+CSS / Bootstrap – For responsive layout and styling
+
+📍 APIs & Services
+LocationIQ API – Converts location names to GPS coordinates (geocoding)
+
+📊 Data Visualization
+Matplotlib – Used to generate graphs and admin dashboards
 
 ---
 
@@ -87,4 +100,4 @@ This project is open-sourced under the MIT License.
 
 ---
 
-file for you to upload directly.
+
